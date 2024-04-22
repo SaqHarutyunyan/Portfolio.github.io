@@ -11,7 +11,7 @@ const EmailSection = () => {
         const formData = new FormData(event.target);
 
         formData.append("access_key", "8a3219d8-6b54-4170-90f7-616eb6819c01");
-
+        
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
 
